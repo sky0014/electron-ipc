@@ -1,0 +1,40 @@
+{
+  "name": "@sky0014/electron-ipc",
+  "version": "1.0.5",
+  "description": "Make you use electron ipc call easier.",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "pub": "npm run build && npm publish --registry=https://registry.npmjs.org --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sky0014/electron-ipc.git"
+  },
+  "keywords": [],
+  "author": "sky0014 <sky-wang@qq.com>",
+  "bugs": {
+    "url": "https://github.com/sky0014/electron-ipc/issues"
+  },
+  "homepage": "https://github.com/sky0014/electron-ipc/#readme",
+  "peerDependencies": {
+    "electron": ">=12.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.2",
+    "rollup": "^2.70.2",
+    "rollup-plugin-dts": "^4.2.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@sky0014/logger": "^1.0.7"
+  },
+  "files": [
+    "preload.js",
+    "main.js",
+    "main.d.ts",
+    "renderer.js",
+    "renderer.d.ts"
+  ]
+}
