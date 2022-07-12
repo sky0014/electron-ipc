@@ -1,6 +1,6 @@
 {
   "name": "@sky0014/electron-ipc",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Make you use electron ipc call easier.",
   "main": "main.js",
   "scripts": {
